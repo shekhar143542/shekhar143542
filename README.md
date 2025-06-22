@@ -5,10 +5,10 @@
 <br clear="both">
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shekhar143542&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true" height="159" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=shekhar143542&locale=en&mode=weekly&theme=radical&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shekhar143542&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox&hide_border=true" height="150" alt="languages graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shekhar143542&theme=gruvbox&area=true&hide_border=true&radius=120" height="150" alt="activity-graph graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=shekhar143542&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true" height="220" alt="stats graph"  />
+  <img src="https://streak-stats.demolab.com?user=shekhar143542&locale=en&mode=weekly&theme=radical&hide_border=false&border_radius=5" height="200"   />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shekhar143542&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=gruvbox&hide_border=true" height="200" alt="languages graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shekhar143542&theme=gruvbox&area=true&hide_border=true&radius=20" height="200" alt="activity-graph graph"  />
 </div>
 
 ###
