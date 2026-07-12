@@ -1,0 +1,36 @@
+name: Generate Robot Contribution Builder
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # once a day at midnight UTC
+  workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate robot builder SVG
+        env:
+          USERNAME: shekhar143542
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/generate-robot-contrib.js
+
+      - name: Commit generated SVG
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add robot-contrib/robot-builder.svg
+          git commit -m "Update robot contribution builder" || echo "No changes to commit"
+          git push
