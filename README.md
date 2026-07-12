@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Shekhar%20Kubbireddy&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%20%26%20Data%20Science%20Engineer&descAlignY=55&descSize=20"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Shekhar%20Kubbireddy&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%20%26%20Data%20Science%20Engineer&descAlignY=55&descSize=20&cb=20260712"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=Building+full-stack+AI-powered+products;Next.js+%7C+React+%7C+TypeScript+%7C+OpenAI+API;ZenoMeet-AI+%E2%80%A2+Visora-AI+%E2%80%A2+Grand+Occassion;400%2B+DSA+problems+solved+%7C+IEEE+Published+Author" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=Building+full-stack+AI-powered+products;Next.js+%7C+React+%7C+TypeScript+%7C+OpenAI+API;ZenoMeet-AI+%E2%80%A2+Visora-AI+%E2%80%A2+Grand+Occassion;400%2B+DSA+problems+solved+%7C+IEEE+Published+Author&cb=20260712" alt="Typing SVG" />
 </a>
 
 <br>
@@ -45,19 +45,19 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 <div align="center">
 
 ### Languages & Core
-<img src="https://skillicons.dev/icons?i=java,py,js,ts,html,css&theme=dark" height="50"/>
+<img src="https://skillicons.dev/icons?i=java,py,js,ts,html,css&theme=dark&cb=20260712" height="50"/>
 
 ### Frontend
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux&theme=dark" height="50"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux&theme=dark&cb=20260712" height="50"/>
 
 ### Backend & Databases
-<img src="https://skillicons.dev/icons?i=nodejs,express,postgresql,mongodb,firebase,prisma&theme=dark" height="50"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgresql,mongodb,firebase,prisma&theme=dark&cb=20260712" height="50"/>
 
 ### Tools & Platforms
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,idea&theme=dark" height="50"/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,idea&theme=dark&cb=20260712" height="50"/>
 
 ### AI / ML
-<img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn&theme=dark" height="50"/>
+<img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn&theme=dark&cb=20260712" height="50"/>
 <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 
@@ -70,17 +70,17 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 <div align="center">
 
 <a href="https://github.com/shekhar143542/Zeno_Meet_AI" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Zeno_Meet_AI&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Zeno_Meet_AI&theme=tokyonight&hide_border=true&border_radius=10&cb=20260712" width="410"/>
 </a>
 <a href="https://github.com/shekhar143542/Visora_AI_PPT_Maker" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Visora_AI_PPT_Maker&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Visora_AI_PPT_Maker&theme=tokyonight&hide_border=true&border_radius=10&cb=20260712" width="410"/>
 </a>
 
 <a href="https://github.com/shekhar143542/Streamlit_Cancer_Prediction" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Streamlit_Cancer_Prediction&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Streamlit_Cancer_Prediction&theme=tokyonight&hide_border=true&border_radius=10&cb=20260712" width="410"/>
 </a>
 <a href="https://github.com/shekhar143542/Grand-Occassion" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Grand-Occassion&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Grand-Occassion&theme=tokyonight&hide_border=true&border_radius=10&cb=20260712" width="410"/>
 </a>
 
 </div>
@@ -140,16 +140,16 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=shekhar143542&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" width="49%"/>
-<img src="https://github-readme-streak-stats.demolab.com?user=shekhar143542&theme=tokyonight&hide_border=true" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=shekhar143542&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&cb=20260712" width="49%"/>
+<img src="https://github-readme-streak-stats.demolab.com?user=shekhar143542&theme=tokyonight&hide_border=true&cb=20260712" width="49%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shekhar143542&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="49%"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shekhar143542&theme=tokyo-night&hide_border=true&area=true" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shekhar143542&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cb=20260712" width="49%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shekhar143542&theme=tokyo-night&hide_border=true&area=true&cb=20260712" width="49%"/>
 
 </div>
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=shekhar143542&theme=algolia&no-frame=true&row=1&column=7&margin-w=8"/>
+<img src="https://github-profile-trophy.vercel.app/?username=shekhar143542&theme=algolia&no-frame=true&row=1&column=7&margin-w=8&cb=20260712"/>
 </div>
 
 <div align="center">
@@ -167,8 +167,8 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/shekhar1357?theme=dark&font=baloo2&ext=activity" width="48%"/>
-<img src="https://geeks-for-geeks-stats-card.vercel.app/?username=shekharku6d29&theme=dark" width="48%"/>
+<img src="https://leetcard.jacoblin.cool/shekhar1357?theme=dark&font=baloo2&ext=activity&cb=20260712" width="48%"/>
+<img src="https://geeks-for-geeks-stats-card.vercel.app/?username=shekharku6d29&theme=dark&cb=20260712" width="48%"/>
 
 <br>
 
@@ -185,14 +185,12 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution calendar — will appear once workflow runs"/>
-
-<sub>⚠️ Also broken until set up — same reason as the snake above. Save <code>profile-3d-contrib.yml</code> to <code>.github/workflows/profile-3d-contrib.yml</code> in your <code>shekhar143542/shekhar143542</code> repo, run it once from the <b>Actions</b> tab, and it'll commit a <code>profile-3d-contrib/</code> folder with several SVG color themes straight to your <code>main</code> branch — this image will then render automatically.</sub>
+<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/main/robot-contrib/robot-builder-3d.svg?cb=20260712" width="100%" alt="a robot building an isometric 3D contribution calendar"/>
 
 </div>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=6,11,20&height=60&section=header&text=&fontSize=0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=6,11,20&height=60&section=header&text=&fontSize=0&cb=20260712" width="100%"/>
 </div>
 
 ---
@@ -219,8 +217,8 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=shekhar143542&label=Profile+Views&color=a855f7&style=for-the-badge"/>
+<img src="https://komarev.com/ghpvc/?username=shekhar143542&label=Profile+Views&color=a855f7&style=for-the-badge&cb=20260712"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&cb=20260712"/>
