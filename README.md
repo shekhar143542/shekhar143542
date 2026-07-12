@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Shekhar%20Kubbireddy&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%20%26%20Data%20Science%20Engineer&descAlignY=55&descSize=20"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=Building+full-stack+AI-powered+products;Next.js+%7C+React+%7C+TypeScript+%7C+OpenAI+API;ZenoMeet-AI+%E2%80%A2+Visora-AI+%E2%80%A2+Royal+Banquets;400%2B+DSA+problems+solved+%7C+IEEE+Published+Author" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=Building+full-stack+AI-powered+products;Next.js+%7C+React+%7C+TypeScript+%7C+OpenAI+API;ZenoMeet-AI+%E2%80%A2+Visora-AI+%E2%80%A2+Grand+Occassion;400%2B+DSA+problems+solved+%7C+IEEE+Published+Author" alt="Typing SVG" />
 </a>
 
 <br>
@@ -79,10 +79,11 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 <a href="https://github.com/shekhar143542/Streamlit_Cancer_Prediction" target="_blank">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Streamlit_Cancer_Prediction&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
 </a>
+<a href="https://github.com/shekhar143542/Grand-Occassion" target="_blank">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Grand-Occassion&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
+</a>
 
 </div>
-
-<div align="center"><sub>💡 Royal Banquets isn't linked above since I don't have its exact repo URL yet — send it over and I'll add a matching pin card + GitHub link in the details section below.</sub></div>
 
 <details>
 <summary><b>🤖 ZenoMeet-AI — AI Meeting Platform</b> — <a href="https://github.com/shekhar143542/Zeno_Meet_AI">repo ↗</a></summary>
@@ -110,7 +111,7 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 </details>
 
 <details>
-<summary><b>🏨 Royal Banquets — Banquet Hall Booking System</b></summary>
+<summary><b>🏨 Grand Occassion — Banquet Hall Booking System</b> — <a href="https://github.com/shekhar143542/Grand-Occassion">repo ↗</a></summary>
 <br>
 
 **Stack:** PostgreSQL · Supabase RLS · JWT Auth
@@ -154,9 +155,9 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 <div align="center">
 
 ### 🔥 Contribution Snake
-<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake animation — will appear once workflow runs"/>
 
-<sub>⚙️ To activate: add the <code>.github/workflows/snake.yml</code> GitHub Action (Platane/snk) to your profile repo — it auto-generates this animation from your contribution graph.</sub>
+<sub>⚠️ This image is broken right now because the file doesn't exist in your repo yet — it only gets created after the workflow below runs once. Save <code>snake.yml</code> to <code>.github/workflows/snake.yml</code> in your <code>shekhar143542/shekhar143542</code> repo, then go to the <b>Actions</b> tab and manually run it once ("Run workflow"). It'll create an <code>output</code> branch with the SVG, and this image will start rendering.</sub>
 
 </div>
 
@@ -184,9 +185,9 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution calendar — will appear once workflow runs"/>
 
-<sub>⚙️ <b>Setup required (one-time):</b> add <code>.github/workflows/profile-3d-contrib.yml</code> using the <a href="https://github.com/yoshi389111/github-profile-3d-contrib">yoshi389111/github-profile-3d-contrib</a> action to your profile repo. It runs on a schedule and generates this true 3D isometric contribution graph automatically — I can write the exact workflow file for you if you want it.</sub>
+<sub>⚠️ Also broken until set up — same reason as the snake above. Save <code>profile-3d-contrib.yml</code> to <code>.github/workflows/profile-3d-contrib.yml</code> in your <code>shekhar143542/shekhar143542</code> repo, run it once from the <b>Actions</b> tab, and it'll commit a <code>profile-3d-contrib/</code> folder with several SVG color themes straight to your <code>main</code> branch — this image will then render automatically.</sub>
 
 </div>
 
