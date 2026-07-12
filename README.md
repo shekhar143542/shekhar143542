@@ -1,80 +1,184 @@
-<h2 align="left">Hi 👋! My name is Shekhar and I'm a student specializing in Artificial Intelligence and Data Science at Vishnu Institute of Technology, from Bhimavaram, Andhra Pradesh, India.</h2>
+::: {align="center"}
+# Hi 👋 I'm **Shekhar Kubbireddy**
 
-###
+### 🚀 Full Stack Developer • AI Enthusiast • Software Engineering Aspirant
 
-<br clear="both">
+```{=html}
+<p align="center">
+```
+`<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;AI+Application+Developer;OpenAI+API+Enthusiast;400%2B+DSA+Problems+Solved;IEEE+Research+Author" />`{=html}
+```{=html}
+</p>
+```
+`<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:7c3aed&height=180&section=header&text=Welcome%20to%20My%20Profile&fontSize=40&fontColor=ffffff"/>`{=html}
+:::
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shekhar143542&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true" height="220" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=shekhar143542&locale=en&mode=weekly&theme=radical&hide_border=false&border_radius=5" height="200"   />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shekhar143542&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=gruvbox&hide_border=true" height="200" alt="languages graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shekhar143542&theme=gruvbox&area=true&hide_border=true&radius=20" height="200" alt="activity-graph graph"  />
-</div>
+------------------------------------------------------------------------
 
-###
+## 👨‍💻 About Me
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="30" alt="intellij logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="30" alt="express logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="30" alt="django logo"  />
-</div>
+-   🎓 Final Year B.Tech in **Computer Science (AI & DS)**
+-   🏫 Vishnu Institute of Technology, Bhimavaram
+-   💼 Full Stack Developer Intern (Hota Creatives)
+-   🤖 Passionate about AI, Backend Engineering and Scalable Web
+    Applications
+-   🧠 Solved **400+ DSA Problems**
+-   📄 IEEE Research Paper Author
+-   ⭐ CGPA **9.39/10**
+-   🌱 Currently learning **System Design, Spring Boot and Cloud**
 
-###
+------------------------------------------------------------------------
 
-<div align="left">
-  <a href="https://discord.com/channels/@me" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  </a>
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  <a href="www.linkedin.com/in/shekhar-kubbireddy-05166b28b" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
+## 🏆 Achievements
 
-###
+-   🥇 1st Prize -- Research Paper Presentation
+-   📄 IEEE ICCES Research Publication
+-   💯 400+ DSA Problems
+-   🚀 Built AI SaaS Applications using OpenAI APIs
+-   💼 Full Stack Development Internship
 
-<div align="left">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-</div>
+------------------------------------------------------------------------
 
-###
+## 🛠️ Tech Stack
 
-<p align="left">Hello World!!</p>
+### Languages
 
-###
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=shekhar143542.shekhar143542&"  />
-</div>
+### Frontend
 
-###
+React • Next.js • HTML • CSS • Tailwind CSS
+
+### Backend
+
+Node.js • Express • REST APIs • JWT
+
+### Database
+
+PostgreSQL • MongoDB • Firebase • Prisma • Drizzle ORM
+
+### AI / ML
+
+OpenAI API • Scikit-learn • Pandas • NumPy
+
+------------------------------------------------------------------------
+
+## 🚀 Featured Projects
+
+### 🤖 ZenoMeet
+
+AI-powered meeting platform with AI agents, video meetings, summaries,
+transcripts and sentiment analysis.
+
+### 🎨 Visora
+
+AI Presentation Builder generating customizable presentations with
+OpenAI.
+
+### 🏨 Royal Banquets
+
+Role-based banquet booking system with JWT authentication, PostgreSQL
+and Supabase.
+
+### 🩺 Breast Cancer Prediction
+
+Machine learning web app with 97% accuracy built using Streamlit.
+
+------------------------------------------------------------------------
+
+## 📊 GitHub Analytics
+
+```{=html}
+<p align="center">
+```
+`<img height="170" src="https://github-readme-stats.vercel.app/api?username=shekhar143542&show_icons=true&theme=tokyonight&hide_border=true"/>`{=html}
+`<img height="170" src="https://streak-stats.demolab.com?user=shekhar143542&theme=tokyonight&hide_border=true"/>`{=html}
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+`<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shekhar143542&layout=compact&theme=tokyonight&hide_border=true"/>`{=html}
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+`<img src="https://github-readme-activity-graph.vercel.app/graph?username=shekhar143542&theme=tokyo-night&hide_border=true"/>`{=html}
+```{=html}
+</p>
+```
+
+------------------------------------------------------------------------
+
+## 🏅 GitHub Trophies
+
+```{=html}
+<p align="center">
+```
+`<img src="https://github-profile-trophy.vercel.app/?username=shekhar143542&theme=algolia&no-frame=true&row=2&column=4"/>`{=html}
+```{=html}
+</p>
+```
+
+------------------------------------------------------------------------
+
+## 🐍 Contribution Snake
+
+> Enable a GitHub Action to generate:
+
+``` text
+https://raw.githubusercontent.com/shekhar143542/shekhar143542/output/github-contribution-grid-snake.svg
+```
+
+Then embed:
+
+``` html
+<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/output/github-contribution-grid-snake.svg"/>
+```
+
+------------------------------------------------------------------------
+
+## 💻 Coding Profiles
+
+-   🔗 GitHub: https://github.com/shekhar143542
+-   💼 LinkedIn:
+    https://www.linkedin.com/in/shekhar-kubbireddy-05166b28b/
+-   🟨 LeetCode: http://leetcode.com/u/shekhar1357/
+-   🟩 GeeksforGeeks:
+    https://www.geeksforgeeks.org/profile/shekharku6d29
+
+------------------------------------------------------------------------
+
+## 📫 Connect With Me
+
+-   📧 shekharkubbireddy@gmail.com
+
+------------------------------------------------------------------------
+
+## ✨ Quote
+
+> *"First, solve the problem. Then, write the code."* --- John Johnson
+
+------------------------------------------------------------------------
+
+```{=html}
+<p align="center">
+```
+`<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>`{=html}
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+`<img src="https://visitor-badge.laobi.icu/badge?page_id=shekhar143542.shekhar143542"/>`{=html}
+```{=html}
+</p>
+```
+`<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,100:0ea5e9&height=120&section=footer"/>`{=html}
