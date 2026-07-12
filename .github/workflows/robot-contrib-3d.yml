@@ -1,0 +1,36 @@
+name: Generate 3D Robot Contribution Calendar
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # once a day at midnight UTC
+  workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate 3D robot builder SVG
+        env:
+          USERNAME: shekhar143542
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/generate-robot-contrib-3d.js
+
+      - name: Commit generated SVG
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add robot-contrib/robot-builder-3d.svg
+          git commit -m "Update 3D robot contribution calendar" || echo "No changes to commit"
+          git push
