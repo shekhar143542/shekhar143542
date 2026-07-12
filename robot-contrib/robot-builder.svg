@@ -27,10 +27,10 @@
         <animate attributeName="height" from="0" to="6" begin="0.18s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
         <animate attributeName="opacity" from="0" to="1" begin="0.18s" dur="0.3s" fill="freeze"/>
       </rect>
-      <rect x="92" y="150" width="14" height="9.126984126984127" rx="2"
+      <rect x="92" y="150" width="14" height="8.880308880308881" rx="2"
         fill="#4c1d95" opacity="0">
-        <animate attributeName="y" from="150" to="140.87301587301587" begin="0.24s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
-        <animate attributeName="height" from="0" to="9.126984126984127" begin="0.24s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+        <animate attributeName="y" from="150" to="141.1196911196911" begin="0.24s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+        <animate attributeName="height" from="0" to="8.880308880308881" begin="0.24s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
         <animate attributeName="opacity" from="0" to="1" begin="0.24s" dur="0.3s" fill="freeze"/>
       </rect>
       <rect x="110" y="150" width="14" height="6" rx="2"
@@ -93,10 +93,10 @@
         <animate attributeName="height" from="0" to="6" begin="0.84s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
         <animate attributeName="opacity" from="0" to="1" begin="0.84s" dur="0.3s" fill="freeze"/>
       </rect>
-      <rect x="290" y="150" width="14" height="9.920634920634921" rx="2"
+      <rect x="290" y="150" width="14" height="9.652509652509652" rx="2"
         fill="#4c1d95" opacity="0">
-        <animate attributeName="y" from="150" to="140.0793650793651" begin="0.90s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
-        <animate attributeName="height" from="0" to="9.920634920634921" begin="0.90s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+        <animate attributeName="y" from="150" to="140.34749034749035" begin="0.90s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+        <animate attributeName="height" from="0" to="9.652509652509652" begin="0.90s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
         <animate attributeName="opacity" from="0" to="1" begin="0.90s" dur="0.3s" fill="freeze"/>
       </rect>
       <rect x="308" y="150" width="14" height="6" rx="2"
