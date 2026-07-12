@@ -69,24 +69,23 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 
 <div align="center">
 
-<a href="https://github.com/shekhar143542" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=ZenoMeet-AI&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
+<a href="https://github.com/shekhar143542/Zeno_Meet_AI" target="_blank">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Zeno_Meet_AI&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
 </a>
-<a href="https://github.com/shekhar143542" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Visora-AI&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
+<a href="https://github.com/shekhar143542/Visora_AI_PPT_Maker" target="_blank">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Visora_AI_PPT_Maker&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
 </a>
 
-<a href="https://github.com/shekhar143542" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Royal-Banquets&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
-</a>
-<a href="https://github.com/shekhar143542" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Breast-Cancer-Prediction&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
+<a href="https://github.com/shekhar143542/Streamlit_Cancer_Prediction" target="_blank">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=shekhar143542&repo=Streamlit_Cancer_Prediction&theme=tokyonight&hide_border=true&border_radius=10" width="410"/>
 </a>
 
 </div>
 
+<div align="center"><sub>💡 Royal Banquets isn't linked above since I don't have its exact repo URL yet — send it over and I'll add a matching pin card + GitHub link in the details section below.</sub></div>
+
 <details>
-<summary><b>🤖 ZenoMeet-AI — AI Meeting Platform</b></summary>
+<summary><b>🤖 ZenoMeet-AI — AI Meeting Platform</b> — <a href="https://github.com/shekhar143542/Zeno_Meet_AI">repo ↗</a></summary>
 <br>
 
 **Stack:** Next.js · React · NeonDB · Drizzle ORM · OpenAI API · Stream SDK
@@ -99,7 +98,7 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 </details>
 
 <details>
-<summary><b>🎨 Visora-AI — Generative Presentation Builder</b></summary>
+<summary><b>🎨 Visora-AI — Generative Presentation Builder</b> — <a href="https://github.com/shekhar143542/Visora_AI_PPT_Maker">repo ↗</a></summary>
 <br>
 
 **Stack:** Next.js · React · Node.js · Prisma ORM · NeonDB · OpenAI API · Zustand
@@ -123,7 +122,7 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 </details>
 
 <details>
-<summary><b>🩺 Breast Cancer Prediction Model</b></summary>
+<summary><b>🩺 Breast Cancer Prediction Model</b> — <a href="https://github.com/shekhar143542/Streamlit_Cancer_Prediction">repo ↗</a></summary>
 <br>
 
 **Stack:** Python · Scikit-learn · Pandas · Streamlit
@@ -167,13 +166,32 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/shekhar143542?theme=dark&font=baloo2&ext=activity" width="48%"/>
-<img src="https://img.shields.io/badge/GeeksforGeeks-Profile-2f8d46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+<img src="https://leetcard.jacoblin.cool/shekhar1357?theme=dark&font=baloo2&ext=activity" width="48%"/>
+<img src="https://geeks-for-geeks-stats-card.vercel.app/?username=shekharku6d29&theme=dark" width="48%"/>
 
 <br>
 
 **400+ problems solved** across LeetCode & GeeksforGeeks — Graphs · Trees · DP · Greedy
 
+<a href="https://leetcode.com/u/shekhar1357/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+<a href="https://www.geeksforgeeks.org/profile/shekharku6d29" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/></a>
+
+</div>
+
+---
+
+## 🌐 3D Contribution Calendar
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+
+<sub>⚙️ <b>Setup required (one-time):</b> add <code>.github/workflows/profile-3d-contrib.yml</code> using the <a href="https://github.com/yoshi389111/github-profile-3d-contrib">yoshi389111/github-profile-3d-contrib</a> action to your profile repo. It runs on a schedule and generates this true 3D isometric contribution graph automatically — I can write the exact workflow file for you if you want it.</sub>
+
+</div>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=gradient&customColorList=6,11,20&height=60&section=header&text=&fontSize=0" width="100%"/>
 </div>
 
 ---
@@ -195,7 +213,7 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 <div align="center">
 
 <a href="mailto:shekharkubbireddy@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/shekhar-kubbireddy-05166b28b" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/shekhar-kubbireddy-05166b28b/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/shekhar143542" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 <br><br>
