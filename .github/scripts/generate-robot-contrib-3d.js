@@ -1,7 +1,11 @@
 /**
- * Generates an animated SVG: a true isometric 3D contribution calendar,
- * built cube-by-cube by a little robot, using real GitHub contribution data
- * pulled live via the GraphQL API.
+ * Generates a polished, self-explanatory isometric 3D contribution calendar:
+ * - Full 7-row grid (every day shown, including zero-contribution days) so
+ *   the overall shape reads clearly, like the familiar GitHub contribution graph.
+ * - Real GitHub green color scale so it's instantly recognizable.
+ * - Month labels + a Less->More legend for orientation.
+ * - A small robot that visibly walks the grid and "places" each column's blocks.
+ * Pulled live from the GitHub GraphQL API.
  */
 const fs = require("fs");
 const https = require("https");
@@ -23,6 +27,7 @@ query($login: String!) {
           contributionDays {
             date
             contributionCount
+            weekday
           }
         }
       }
@@ -62,103 +67,189 @@ function graphqlRequest() {
   });
 }
 
-// Isometric projection helpers
-const TILE_W = 18;   // width of a cube's top face
-const TILE_H = 9;    // half-height of the rhombus top face
-const UNIT_EXTRUDE = 3; // px of height per contribution "level"
-const MAX_EXTRUDE = 30; // cap so busy days don't dwarf everything
+// ---- Isometric constants ----
+const TILE_W = 20;
+const TILE_H = 10;
+const UNIT_EXTRUDE = 3.2;
+const MAX_EXTRUDE = 34;
+const BASE_THICKNESS = 3; // flat "floor tile" height for zero-contribution days
 
-function colorFor(count, maxCount) {
-  if (count === 0) return { top: "#21262d", left: "#161b22", right: "#1c2128" };
-  const ratio = Math.min(1, count / maxCount);
-  if (ratio < 0.25) return { top: "#5b3aa0", left: "#432b78", right: "#4c3189" };
-  if (ratio < 0.5) return { top: "#8b5cf6", left: "#6d3fd1", right: "#7a4ade" };
-  if (ratio < 0.75) return { top: "#c084fc", left: "#a855f7", right: "#b566fa" };
-  return { top: "#fde047", left: "#facc15", right: "#fbd41f" };
+// GitHub's real contribution green scale
+const LEVELS = [
+  { top: "#161b22", left: "#0d1117", right: "#11161c" }, // 0
+  { top: "#0e4429", left: "#0a331f", right: "#0c3a24" }, // low
+  { top: "#006d32", left: "#00551f", right: "#005f27" }, // mid
+  { top: "#26a641", left: "#1c8a34", right: "#219c3b" }, // high
+  { top: "#39d353", left: "#2bb845", right: "#33c94c" }, // max
+];
+
+function levelFor(count, maxCount) {
+  if (count === 0) return 0;
+  const ratio = count / maxCount;
+  if (ratio < 0.25) return 1;
+  if (ratio < 0.5) return 2;
+  if (ratio < 0.75) return 3;
+  return 4;
 }
 
-function cubeSVG(cx, topY, baseY, colors, delay) {
+function cubePolygons(cx, topY, baseY, colors) {
   const w = TILE_W / 2;
   const h = TILE_H / 2;
-  // Top rhombus
   const top = `${cx},${topY - h} ${cx + w},${topY} ${cx},${topY + h} ${cx - w},${topY}`;
-  // Left face
   const left = `${cx - w},${topY} ${cx},${topY + h} ${cx},${baseY + h} ${cx - w},${baseY}`;
-  // Right face
   const right = `${cx},${topY + h} ${cx + w},${topY} ${cx + w},${baseY} ${cx},${baseY + h}`;
-
-  return `
-    <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="${delay}s" dur="0.25s" fill="freeze"/>
-      <polygon points="${left}" fill="${colors.left}"/>
-      <polygon points="${right}" fill="${colors.right}"/>
-      <polygon points="${top}" fill="${colors.top}"/>
-    </g>`;
+  return { top, left, right };
 }
 
+const MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
 function buildSVG(weeks) {
-  const recentWeeks = weeks.slice(-18);
+  const recentWeeks = weeks.slice(-20);
   const maxCount = Math.max(
     1,
     ...recentWeeks.flatMap((w) => w.contributionDays.map((d) => d.contributionCount))
   );
 
-  const originX = 260;
-  const originY = 60;
+  const marginLeft = 90;
+  const marginTop = 150;
+  const gridW = recentWeeks.length * (TILE_W / 2) * 2;
+  const gridDepth = 7 * (TILE_H / 2) * 2;
 
+  const originX = marginLeft + (7 - 1) * (TILE_W / 2) + 20;
+  const originY = marginTop;
+
+  let floors = "";
   let cubes = "";
   let delayStep = 0;
-  const positions = []; // for robot path
+  const monthMarks = {};
+  const columnDelays = [];
 
   recentWeeks.forEach((week, c) => {
-    week.contributionDays.forEach((day, r) => {
+    let colDelay = null;
+    week.contributionDays.forEach((day) => {
+      const r = day.weekday;
       const count = day.contributionCount;
-      const extrude = Math.min(MAX_EXTRUDE, count * UNIT_EXTRUDE) || 2;
+      const lvl = levelFor(count, maxCount);
+      const colors = LEVELS[lvl];
+      const extrude = lvl === 0 ? BASE_THICKNESS : Math.min(MAX_EXTRUDE, BASE_THICKNESS + count * UNIT_EXTRUDE);
 
       const baseX = originX + (c - r) * (TILE_W / 2);
       const baseY = originY + (c + r) * (TILE_H / 2);
       const topY = baseY - extrude;
 
-      const colors = colorFor(count, maxCount);
-      const delay = (delayStep * 0.025).toFixed(2);
-      cubes += cubeSVG(baseX, topY, baseY, colors, delay);
-      positions.push({ x: baseX, y: topY - 14, delay: parseFloat(delay) });
-      delayStep++;
+      const delay = (c * 0.09 + r * 0.015).toFixed(2);
+      if (colDelay === null) colDelay = parseFloat(delay);
+
+      const { top, left, right } = cubePolygons(baseX, topY, baseY, colors);
+      cubes += `
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="${delay}s" dur="0.3s" fill="freeze"/>
+        <polygon points="${left}" fill="${colors.left}"/>
+        <polygon points="${right}" fill="${colors.right}"/>
+        <polygon points="${top}" fill="${colors.top}" stroke="#0d1117" stroke-width="0.4"/>
+      </g>`;
+
+      // track month label at the first week of each month
+      const d = new Date(day.date);
+      const monthKey = `${d.getFullYear()}-${d.getMonth()}`;
+      if (r === 0 && !(monthKey in monthMarks)) {
+        monthMarks[monthKey] = { c, label: MONTH_NAMES[d.getMonth()] };
+      }
     });
+    columnDelays.push(colDelay || 0);
   });
 
-  // Robot path: hop between a sampled subset of positions so the motion stays readable
-  const sampled = positions.filter((_, i) => i % 6 === 0);
-  let pathD = "";
-  sampled.forEach((p, i) => {
-    pathD += i === 0 ? `M ${p.x},${p.y} ` : `L ${p.x},${p.y} `;
+  // Month labels: fixed straight row above the grid, spaced by column index only.
+  // Skip any label that would land too close to the previous one so they never overlap.
+  let monthLabels = "";
+  let lastMonthX = -999;
+  Object.values(monthMarks).forEach(({ c, label }) => {
+    const x = marginLeft + c * (TILE_W / 2) + 4;
+    if (x - lastMonthX < 28) return;
+    lastMonthX = x;
+    monthLabels += `<text x="${x}" y="82" fill="#8b949e" font-family="Segoe UI, sans-serif" font-size="11">${label}</text>`;
   });
-  const totalDuration = (delayStep * 0.025 + 1.5).toFixed(2);
+
+  // Weekday labels (Mon / Wed / Fri): fixed x column so they never overlap each other or the grid
+  const weekdayLabels = [
+    { r: 1, label: "Mon" },
+    { r: 3, label: "Wed" },
+    { r: 5, label: "Fri" },
+  ]
+    .map(({ r, label }) => {
+      const x = marginLeft - 60;
+      const y = originY + r * (TILE_H / 2) + 3;
+      return `<text x="${x}" y="${y}" fill="#8b949e" font-family="Segoe UI, sans-serif" font-size="10">${label}</text>`;
+    })
+    .join("");
+
+  // ---- Robot: walks left-to-right along the front edge (row 6), pausing briefly over each column ----
+  const robotY = originY + (recentWeeks.length - 1 + 6) * (TILE_H / 2) * 0 ; // unused placeholder
+  const robotPathPoints = recentWeeks.map((_, c) => {
+    const r = 6;
+    const x = originX + (c - r) * (TILE_W / 2);
+    const y = originY + (c + r) * (TILE_H / 2) - 26;
+    return { x, y };
+  });
+  let robotPath = "";
+  robotPathPoints.forEach((p, i) => {
+    robotPath += i === 0 ? `M ${p.x},${p.y} ` : `L ${p.x},${p.y} `;
+  });
+  const totalDelay = columnDelays[columnDelays.length - 1] + 0.5;
+  const robotDuration = totalDelay.toFixed(2);
 
   const robot = `
     <g id="robot">
-      <animateMotion path="${pathD}" begin="0s" dur="${totalDuration}s" fill="freeze" calcMode="linear"/>
-      <rect x="-9" y="-9" width="18" height="16" rx="3" fill="#e5e7eb"/>
-      <rect x="-5" y="-5" width="4" height="4" fill="#22d3ee">
-        <animate attributeName="fill" values="#22d3ee;#0891b2;#22d3ee" dur="0.7s" repeatCount="indefinite"/>
+      <animateMotion path="${robotPath}" begin="0s" dur="${robotDuration}s" fill="freeze" calcMode="linear"/>
+      <ellipse cx="0" cy="13" rx="9" ry="2.5" fill="#000" opacity="0.35"/>
+      <rect x="-3" y="1" width="6" height="9" rx="1.5" fill="#9ca3af"/>
+      <rect x="-10" y="-10" width="20" height="15" rx="4" fill="#e5e7eb"/>
+      <rect x="-10" y="-10" width="20" height="15" rx="4" fill="none" stroke="#c4c9d1" stroke-width="0.6"/>
+      <rect x="-7" y="-6" width="14" height="6" rx="2" fill="#1f2937"/>
+      <rect x="-5.5" y="-4.3" width="4" height="3" fill="#22d3ee">
+        <animate attributeName="opacity" values="1;0.4;1" dur="0.6s" repeatCount="indefinite"/>
       </rect>
-      <rect x="1" y="-5" width="4" height="4" fill="#22d3ee">
-        <animate attributeName="fill" values="#22d3ee;#0891b2;#22d3ee" dur="0.7s" repeatCount="indefinite" begin="0.35s"/>
+      <rect x="1.5" y="-4.3" width="4" height="3" fill="#22d3ee">
+        <animate attributeName="opacity" values="1;0.4;1" dur="0.6s" repeatCount="indefinite" begin="0.3s"/>
       </rect>
-      <rect x="-3" y="7" width="6" height="9" fill="#9ca3af"/>
-      <rect x="-13" y="-3" width="5" height="4" fill="#e5e7eb">
-        <animateTransform attributeName="transform" type="rotate" values="0 -10 -1;-40 -10 -1;0 -10 -1" dur="0.4s" repeatCount="indefinite"/>
-      </rect>
+      <circle cx="0" cy="-15" r="2" fill="#f59e0b"/>
+      <line x1="0" y1="-13" x2="0" y2="-10" stroke="#9ca3af" stroke-width="1.4"/>
+      <g>
+        <rect x="-15" y="-4" width="6" height="4.5" rx="1.5" fill="#e5e7eb">
+          <animateTransform attributeName="transform" type="rotate"
+            values="0 -12 -2; -35 -12 -2; 0 -12 -2" dur="0.5s" repeatCount="indefinite"/>
+        </rect>
+      </g>
     </g>`;
 
   const svgWidth = originX + recentWeeks.length * (TILE_W / 2) + 60;
-  const svgHeight = originY + 7 * TILE_H + MAX_EXTRUDE + 50;
+  const svgHeight = originY + 6 * TILE_H + MAX_EXTRUDE + 70;
 
   return `<svg width="${svgWidth}" height="${svgHeight}" viewBox="0 0 ${svgWidth} ${svgHeight}" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#0d1117" rx="10"/>
-  <text x="20" y="28" fill="#e5e7eb" font-family="Segoe UI, sans-serif" font-size="16" font-weight="600">3D Contribution Calendar — built live, cube by cube 🤖</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)" rx="12"/>
+  <text x="24" y="34" fill="#e6edf3" font-family="Segoe UI, sans-serif" font-size="17" font-weight="700">3D Contribution Calendar</text>
+  <text x="24" y="54" fill="#8b949e" font-family="Segoe UI, sans-serif" font-size="12">Built cube-by-cube from real GitHub activity 🤖</text>
+
+  ${monthLabels}
+  ${weekdayLabels}
   ${cubes}
   ${robot}
+
+  <g transform="translate(${svgWidth - 190}, ${svgHeight - 26})" font-family="Segoe UI, sans-serif" font-size="11" fill="#8b949e">
+    <text x="0" y="9">Less</text>
+    <rect x="34" y="0" width="10" height="10" rx="2" fill="${LEVELS[0].top}"/>
+    <rect x="48" y="0" width="10" height="10" rx="2" fill="${LEVELS[1].top}"/>
+    <rect x="62" y="0" width="10" height="10" rx="2" fill="${LEVELS[2].top}"/>
+    <rect x="76" y="0" width="10" height="10" rx="2" fill="${LEVELS[3].top}"/>
+    <rect x="90" y="0" width="10" height="10" rx="2" fill="${LEVELS[4].top}"/>
+    <text x="106" y="9">More</text>
+  </g>
 </svg>`;
 }
 
