@@ -185,7 +185,7 @@ fun_fact: Solved 400+ DSA problems and still debugging life one commit at a time
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/main/robot-contrib/robot-builder-3d.svg?cb=20260713v2" width="100%" alt="a robot building an isometric 3D contribution calendar"/>
+<img src="https://raw.githubusercontent.com/shekhar143542/shekhar143542/main/robot-contrib/robot-builder-3d.svg?cb=20260712fix2" width="100%" alt="a robot building an isometric 3D contribution calendar"/>
 
 </div>
 
