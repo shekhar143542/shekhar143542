@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Shekhar%20Kubbireddy&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%20%26%20Data%20Science%20Engineer&descAlignY=55&descSize=20&cb=20260712"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Shekhar%20Kubbireddy&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%20and%20Data%20Science%20Engineer&descAlignY=55&descSize=20&cb=20260712fix3"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=Building+full-stack+AI-powered+products;Next.js+%7C+React+%7C+TypeScript+%7C+OpenAI+API;ZenoMeet-AI+%E2%80%A2+Visora-AI+%E2%80%A2+Grand+Occassion;400%2B+DSA+problems+solved+%7C+IEEE+Published+Author&cb=20260712" alt="Typing SVG" />
