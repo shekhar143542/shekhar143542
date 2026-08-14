@@ -836,9 +836,15 @@
       </g>
       <g opacity="0">
         <animate attributeName="opacity" from="0" to="1" begin="1.77s" dur="0.3s" fill="freeze"/>
-        <polygon points="310,262 320,267 320,270 310,265" fill="#0d1117"/>
-        <polygon points="320,267 330,262 330,265 320,270" fill="#11161c"/>
-        <polygon points="320,257 330,262 320,267 310,262" fill="#161b22" stroke="#0d1117" stroke-width="0.4"/>
+        <polygon points="310,239.6 320,244.6 320,270 310,265" fill="#0a331f"/>
+        <polygon points="320,244.6 330,239.6 330,265 320,270" fill="#0c3a24"/>
+        <polygon points="320,234.6 330,239.6 320,244.6 310,239.6" fill="#0e4429" stroke="#0d1117" stroke-width="0.4"/>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="1.78s" dur="0.3s" fill="freeze"/>
+        <polygon points="300,260.6 310,265.6 310,275 300,270" fill="#0a331f"/>
+        <polygon points="310,265.6 320,260.6 320,270 310,275" fill="#0c3a24"/>
+        <polygon points="310,255.60000000000002 320,260.6 310,265.6 300,260.6" fill="#0e4429" stroke="#0d1117" stroke-width="0.4"/>
       </g>
   
     <g id="robot">
