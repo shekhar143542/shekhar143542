@@ -830,15 +830,21 @@
       </g>
       <g opacity="0">
         <animate attributeName="opacity" from="0" to="1" begin="1.75s" dur="0.3s" fill="freeze"/>
-        <polygon points="320,257 330,262 330,265 320,260" fill="#0d1117"/>
-        <polygon points="330,262 340,257 340,260 330,265" fill="#11161c"/>
-        <polygon points="330,252 340,257 330,262 320,257" fill="#161b22" stroke="#0d1117" stroke-width="0.4"/>
+        <polygon points="320,253.8 330,258.8 330,265 320,260" fill="#0a331f"/>
+        <polygon points="330,258.8 340,253.8 340,260 330,265" fill="#0c3a24"/>
+        <polygon points="330,248.8 340,253.8 330,258.8 320,253.8" fill="#0e4429" stroke="#0d1117" stroke-width="0.4"/>
       </g>
       <g opacity="0">
         <animate attributeName="opacity" from="0" to="1" begin="1.77s" dur="0.3s" fill="freeze"/>
-        <polygon points="310,262 320,267 320,270 310,265" fill="#0d1117"/>
-        <polygon points="320,267 330,262 330,265 320,270" fill="#11161c"/>
-        <polygon points="320,257 330,262 320,267 310,262" fill="#161b22" stroke="#0d1117" stroke-width="0.4"/>
+        <polygon points="310,249.2 320,254.2 320,270 310,265" fill="#0a331f"/>
+        <polygon points="320,254.2 330,249.2 330,265 320,270" fill="#0c3a24"/>
+        <polygon points="320,244.2 330,249.2 320,254.2 310,249.2" fill="#0e4429" stroke="#0d1117" stroke-width="0.4"/>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="1.78s" dur="0.3s" fill="freeze"/>
+        <polygon points="300,267 310,272 310,275 300,270" fill="#0d1117"/>
+        <polygon points="310,272 320,267 320,270 310,275" fill="#11161c"/>
+        <polygon points="310,262 320,267 310,272 300,267" fill="#161b22" stroke="#0d1117" stroke-width="0.4"/>
       </g>
   
     <g id="robot">
