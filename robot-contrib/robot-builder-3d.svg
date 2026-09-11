@@ -840,6 +840,12 @@
         <polygon points="320,267 330,262 330,265 320,270" fill="#11161c"/>
         <polygon points="320,257 330,262 320,267 310,262" fill="#161b22" stroke="#0d1117" stroke-width="0.4"/>
       </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="1.78s" dur="0.3s" fill="freeze"/>
+        <polygon points="300,267 310,272 310,275 300,270" fill="#0d1117"/>
+        <polygon points="310,272 320,267 320,270 310,275" fill="#11161c"/>
+        <polygon points="310,262 320,267 310,272 300,267" fill="#161b22" stroke="#0d1117" stroke-width="0.4"/>
+      </g>
   
     <g id="robot">
       <animateMotion path="M 110,154 L 120,159 L 130,164 L 140,169 L 150,174 L 160,179 L 170,184 L 180,189 L 190,194 L 200,199 L 210,204 L 220,209 L 230,214 L 240,219 L 250,224 L 260,229 L 270,234 L 280,239 L 290,244 L 300,249 " begin="0s" dur="2.21s" fill="freeze" calcMode="linear"/>
